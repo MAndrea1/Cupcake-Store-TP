@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+    background-color: #FFE699;
+}
+
+.formulario{
+    margin: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    padding: 5rem;
+    background-color: white;
+    border: 5px dashed #e05d5d;
+}
+
+legend{
+    color: #e05d5d;
+}
+
+input[type=text], textarea {
+    padding:5px; 
+    border:2px solid #e05d5d; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+fieldset{
+    padding:5rem; 
+    margin: 3rem;
+    border:2px solid #e05d5d; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#e05d5d;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#e05d5d; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    font-size: 2rem;
+}
+
+input[type=submit] {
+    padding:10px 20px; 
+    background:#e05d5d; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    font-size: 2rem;
+}
+
+input[type=submit]:hover {
+    padding:10px 20px; 
+    color:#fff; 
+    background:#b34242;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    font-size: 2rem;
+}
