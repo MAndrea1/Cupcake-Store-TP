@@ -19,7 +19,7 @@ legend{
     color: #e05d5d;
 }
 
-input[type=text], textarea {
+input[type=text], textarea, input[type=email] {
     padding:5px; 
     border:2px solid #e05d5d; 
     -webkit-border-radius: 5px;
