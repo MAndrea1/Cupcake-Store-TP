@@ -15,12 +15,13 @@
 .card{
     text-align: center;
     margin-bottom: 5rem;
+    flex-direction: column;
 }
 
 img{
     width: 100%;
-    height: 30vh;
-    object-fit: fill;
+    height: 40rem;
+    object-fit: cover;
 }
 
 .title{
@@ -29,16 +30,18 @@ img{
 }
 
 @media only screen and (min-width: 1200px) {
+
     .cupcakes{
         width: 80%;
         height: 100%;
         flex-direction: row;
     }    
-        
+
     .card{
         width: 30%;
         height: 45%;
     }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -49,8 +52,12 @@ img{
     }    
 
     .card{
-        width: 30%;
+        width: 40%;
         height: 45%;
+    }
+
+    img{
+        object-fit: cover;
     }
 }
 

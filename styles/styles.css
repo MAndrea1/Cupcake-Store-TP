@@ -29,7 +29,12 @@ body {
 a {
     color: inherit;
     text-decoration: inherit;
-  }
+}
+
+section a {
+    color: #e05d5d;    
+    font-weight: 900;
+}
 
 *{
     box-sizing: border-box;
